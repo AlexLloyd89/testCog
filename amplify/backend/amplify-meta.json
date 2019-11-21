@@ -1,0 +1,26 @@
+{
+    "providers": {
+        "awscloudformation": {
+            "AuthRoleName": "amplify-cognito-test-141738-authRole",
+            "UnauthRoleArn": "arn:aws:iam::612801090409:role/amplify-cognito-test-141738-unauthRole",
+            "AuthRoleArn": "arn:aws:iam::612801090409:role/amplify-cognito-test-141738-authRole",
+            "Region": "us-east-1",
+            "DeploymentBucketName": "amplify-cognito-test-141738-deployment",
+            "UnauthRoleName": "amplify-cognito-test-141738-unauthRole",
+            "StackName": "amplify-cognito-test-141738",
+            "StackId": "arn:aws:cloudformation:us-east-1:612801090409:stack/amplify-cognito-test-141738/698924b0-0713-11ea-ba8c-0aa554d91bcc"
+        }
+    },
+    "auth": {
+        "cognitoa9884b25": {
+            "service": "Cognito",
+            "providerPlugin": "awscloudformation",
+            "dependsOn": [],
+            "providerMetadata": {
+                "s3TemplateURL": "https://s3.amazonaws.com/amplify-cognito-test-141738-deployment/amplify-cfn-templates/auth/cognitoa9884b25-cloudformation-template.yml",
+                "logicalId": "authcognitoa9884b25"
+            },
+            "lastPushTimeStamp": "2019-11-14T19:23:59.717Z"
+        }
+    }
+}
