@@ -10,8 +10,8 @@ export class AuthService {
   issessionValid: boolean = false;
   attributeList: string[] = [];
   poolData = {
-    UserPoolId: "us-east-1_Qq84iYiMa",
-    ClientId: "1q4recg3fo4r7t085cdth7rcij",
+    UserPoolId: "see email",
+    ClientId: "see email",
     AppWebDomain: "https://localhost:4200"
   };
   userPool = new AmazonCognitoIdentity.CognitoUserPool(this.poolData);
